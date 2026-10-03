@@ -1,0 +1,183 @@
+{
+  "engine": "Chromium / software WebGL",
+  "errors": [],
+  "modes": [
+    {
+      "mode": "Natural",
+      "modeIndex": 0,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 269,
+      "triangles": 1115392,
+      "frames": 9,
+      "meanFPS": 0,
+      "ao": false,
+      "bloom": false,
+      "exploring": false
+    },
+    {
+      "mode": "Painterly",
+      "modeIndex": 1,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 282,
+      "triangles": 1115405,
+      "frames": 15,
+      "meanFPS": 0,
+      "ao": false,
+      "bloom": true,
+      "exploring": false
+    },
+    {
+      "mode": "Anime",
+      "modeIndex": 2,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 269,
+      "triangles": 1115392,
+      "frames": 17,
+      "meanFPS": 0,
+      "ao": false,
+      "bloom": false,
+      "exploring": false
+    },
+    {
+      "mode": "Cartoon",
+      "modeIndex": 3,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 269,
+      "triangles": 1115392,
+      "frames": 20,
+      "meanFPS": 0,
+      "ao": false,
+      "bloom": false,
+      "exploring": false
+    },
+    {
+      "mode": "Ultra",
+      "modeIndex": 4,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 421,
+      "triangles": 1815089,
+      "frames": 25,
+      "meanFPS": 0,
+      "ao": true,
+      "bloom": true,
+      "exploring": false
+    }
+  ],
+  "checks": [
+    "W key moves camera",
+    "Mouse drag rotates view",
+    "R restores overlook",
+    "Help opens and Escape closes",
+    "Touch joystick moves camera",
+    "Mobile style button switches mode",
+    "Live GitHub Pages renders the exact tested build",
+    "No runtime or shader errors"
+  ],
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "WebKit WebGL"
+  },
+  "live": {
+    "url": "https://kubok758.github.io/Evermere/",
+    "title": "Evermere \u2014 A living landscape",
+    "state": {
+      "mode": "Natural",
+      "modeIndex": 0,
+      "camera": [
+        46,
+        24,
+        52
+      ],
+      "rotation": [
+        -0.16359655892049374,
+        0.6600090430559321
+      ],
+      "stats": {
+        "trees": 295,
+        "grass": 37510,
+        "homes": 7,
+        "villagers": 5
+      },
+      "drawCalls": 269,
+      "triangles": 1115392,
+      "frames": 6,
+      "meanFPS": 1,
+      "ao": false,
+      "bloom": false,
+      "exploring": false
+    },
+    "asset": "./assets/index-BLrhi-XZ.js"
+  },
+  "verified_commit": "ff4ad7a6ba36d3c17c5da00fdc3aa7a1a615fbc7",
+  "workflow_run": "https://github.com/kubok758/Evermere/actions/runs/37157621129"
+}

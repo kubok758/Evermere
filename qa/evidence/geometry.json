@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "source": {
+    "path": "src/world.js",
+    "sha256": "2e60e0e57e84846d6682641164efb4bf71e02c1ff8a0999779a0c57b1c33c5e0",
+    "modifiedByValidator": false,
+    "commit": "ff4ad7a6ba36d3c17c5da00fdc3aa7a1a615fbc7"
+  },
+  "geometry": {
+    "stats": {
+      "trees": 295,
+      "grass": 37510,
+      "homes": 7,
+      "villagers": 5
+    },
+    "meshes": 176,
+    "triangles": 1064243,
+    "attributeEntriesChecked": 2547173,
+    "allCheckedAttributesFinite": true,
+    "waterFacesUp": true
+  },
+  "simulation": {
+    "seconds": 180,
+    "hz": 20,
+    "frames": 3600,
+    "measurement": "Actual transformed boot vertices versus the declared terrain/path/bridge support surface; no pose overrides or render-mesh raycasting",
+    "targetClearanceMeters": 0.012,
+    "toleranceMeters": 0.001,
+    "walkers": [
+      {
+        "walker": 0,
+        "minimumSoleGap": 0.011999999298519248,
+        "maximumLowestSoleGap": 0.012000002629560358,
+        "violatingFrames": 0,
+        "meanLowestSoleGap": 0.01200000158466612
+      },
+      {
+        "walker": 1,
+        "minimumSoleGap": 0.01199999949983055,
+        "maximumLowestSoleGap": 0.01200000349944319,
+        "violatingFrames": 0,
+        "meanLowestSoleGap": 0.012000001542388034
+      },
+      {
+        "walker": 2,
+        "minimumSoleGap": 0.01199999942391039,
+        "maximumLowestSoleGap": 0.012000002427790424,
+        "violatingFrames": 0,
+        "meanLowestSoleGap": 0.012000001591073523
+      },
+      {
+        "walker": 3,
+        "minimumSoleGap": 0.011999999429021996,
+        "maximumLowestSoleGap": 0.012000002526133091,
+        "violatingFrames": 0,
+        "meanLowestSoleGap": 0.0120000015978682
+      },
+      {
+        "walker": 4,
+        "minimumSoleGap": 0.012000000303171499,
+        "maximumLowestSoleGap": 0.012000003803997461,
+        "violatingFrames": 0,
+        "meanLowestSoleGap": 0.012000001757001963
+      }
+    ]
+  },
+  "failures": []
+}
