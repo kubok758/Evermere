@@ -3,3 +3,6 @@ node_modules/
 .unlazy/
 .unlazy-hook-state.json
 .DS_Store
+dist/
+Evermere.html
+qa/results/

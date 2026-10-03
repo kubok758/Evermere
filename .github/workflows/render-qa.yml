@@ -2,8 +2,9 @@ name: Render and interaction QA
 on:
   push:
     paths:
-      - 'docs/**'
-      - 'qa/**'
+      - 'docs/index.html'
+      - 'docs/assets/**'
+      - 'qa/render.cjs'
       - '.github/workflows/render-qa.yml'
   workflow_dispatch:
 permissions:
