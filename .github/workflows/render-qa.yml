@@ -1,0 +1,37 @@
+name: Render and interaction QA
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'qa/**'
+      - '.github/workflows/render-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser test dependencies
+        run: |
+          mkdir -p /tmp/evermere-qa
+          cd /tmp/evermere-qa
+          npm init -y
+          npm install playwright@1.51.1
+          npx playwright install --with-deps chromium
+      - name: Render all modes and verify controls
+        env:
+          NODE_PATH: /tmp/evermere-qa/node_modules
+        run: |
+          python3 -m http.server 4173 --directory docs >/tmp/evermere-http.log 2>&1 &
+          node qa/render.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evermere-render-qa
+          path: qa/results
